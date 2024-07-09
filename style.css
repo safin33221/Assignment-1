@@ -8,7 +8,6 @@
 /* shared style start*/
 .section{
     width: 1200px;
-    
     margin: 0 auto;
     margin-bottom: 100px;
     
@@ -18,10 +17,14 @@
 /* shared style end*/
 
 /* header section start */
+header{
+    margin-top: 40px;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 25px 50px;
+    margin: 40px 50px;
+    
 }
 nav h1{
     
@@ -31,6 +34,7 @@ nav h1{
 nav button{
     width: 221px;
     height: 55px;
+    border-radius: 8px;
 }
 /* header section end */
 
