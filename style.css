@@ -11,6 +11,7 @@
     
     margin: 0 auto;
     margin-bottom: 100px;
+    border: 2px solid red;
    
 
 }
@@ -40,6 +41,7 @@ nav button{
     background: linear-gradient(#ADDCFF);
     background-image: url("./assets/Hero-bg.png");
     background-blend-mode: overlay;
+    
     
     
 }
@@ -99,6 +101,7 @@ nav button{
 /* about-development  section start */
 .about-development{
     height: 1400px;
+    
     
 }
 .about-development-contant{
@@ -214,6 +217,7 @@ nav button{
 /* inspriation section start */
 .inspriation{
     height: 900px;
+    
 }
 .inspriation-title{
     text-align: center;
@@ -247,6 +251,112 @@ nav button{
     margin: 0 auto;
     box-sizing: border-box;
 }
-
-   
 /* inspriation section end */
+
+
+
+/* my-terget section start */
+.my-target{
+    height: 1000px;
+}
+.my-target .my-target-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.my-target .my-target-title h1{
+    font-size: 30px;
+    color: #0D1321;
+    line-height: 80px;
+    
+}
+
+.my-target .my-target-title p{
+     width: 80%;
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #605b5b;
+    margin-top: 22px;
+}
+.my-target .target-items{
+    display: flex;
+    margin: 5px;
+    margin-top: 39px;
+    justify-content: space-around;
+}
+.my-target .item-box{
+    width: 280px;
+    height: 219px;
+    border: 2px solid red;
+    
+
+}
+.my-target .item1 {
+    
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.my-target .item2 {
+background: rgba(0, 76, 232, 0.05); 
+}
+
+.my-target .item3 {
+    background: rgba(255, 223, 0, 0.05);
+    
+}
+.my-target .item-box img,h3{
+    display: flex;
+    margin-left:  5px;
+    margin-top: 10px;
+}
+
+.my-target .item-box p,h3{
+    display: flex;
+    margin-left: 15px;
+    text-align: justify;
+    
+}
+.my-target .item-box a{
+    display: flex;
+    margin-left: 15px;
+
+}
+.my-next-target-items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+}
+
+.my-next-target .next-item{
+    display: flex;
+    gap: 5px;
+    text-align: justify;
+    gap: 10px;
+    flex-direction: row;
+    width: 1085px;
+    height: 100px;
+    margin: 0 auto;
+    margin: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.my-next-target .next-item P{
+    font-size: 16px;
+    font-weight: 500;
+    color: #605b5b;
+    margin-left: 20px;
+    text-align: justify;
+}
+.my-next-target .next-item a{
+    color: black ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+/* 
+my-terget section end */
