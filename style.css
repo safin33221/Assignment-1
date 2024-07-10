@@ -216,13 +216,14 @@ nav button{
     margin-top: 50px;
 }
 
-.dev-image-contant-3 .contant-title-3 button{
+.about-development-contant button{
     width: 140px;
     height: 40px;
     margin-top: 20px;
     border-radius: 5px;
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 /* about-development  section end */
